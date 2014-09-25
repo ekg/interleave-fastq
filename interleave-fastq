@@ -10,8 +10,8 @@ Usage:
 import sys
 
 def interleave(f1, f2):
-"""Interleaves two (open) fastq files.
-"""
+    """Interleaves two (open) fastq files.
+    """
     while True:
         line = f1.readline()
         if line.strip() == "":
